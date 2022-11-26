@@ -1,0 +1,28 @@
+name: sketchingapp
+description: Sketching App using Flutter
+publish_to: 'none'
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_colorpicker: ^0.3.4
+  screenshot: ^0.2.0
+  image_gallery_saver: ^1.7.1
+  permission_handler: ^5.0.1+1
+  path_provider: ^1.0.22
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+
+  uses-material-design: true
